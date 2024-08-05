@@ -10,10 +10,10 @@ click==8.1.7
 colorama==0.4.6
 distro==1.9.0
 docx==0.2.4
-openai
-langchain
-faiss-cpu
-tiktoken
+openai==1.37.1
+langchain==0.2.11
+faiss-cpu==1.8.0.post1
+tiktoken==0.7.0
 filelock==3.15.4
 fsspec==2024.6.1
 gitdb==4.0.11
