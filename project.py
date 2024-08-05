@@ -14,7 +14,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-api_key = os.getenv("api_key")
+api_key = os.getenv("API_KEY")
 
 
 # Set your Groq API key
