@@ -1,5 +1,5 @@
-import faiss
 import numpy as np
+import faiss
 import sqlite3
 import streamlit as st
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
