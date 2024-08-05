@@ -1,8 +1,8 @@
 import numpy as np
-#import faiss
+import faiss
 import sqlite3
 import streamlit as st
-#from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, T5ForConditionalGeneration
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, T5ForConditionalGeneration
 from sentence_transformers import SentenceTransformer
 import PyPDF2
 import docx
